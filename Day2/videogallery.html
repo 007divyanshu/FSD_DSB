@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #d62e34;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .video-box {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        .large-box {
+            grid-column: span 3;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        video {
+            width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Video Gallery</h1>
+</header>
+
+<div class="gallery">
+    <div class="video-box">
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Video 1</p>
+    </div>
+    <div class="video-box">
+        <video controls>
+            <source src="video2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Video 2</p>
+    </div>
+    <div class="video-box">
+        <video controls>
+            <source src="video3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Video 3</p>
+    </div>
+    <div class="video-box">
+        <video controls>
+            <source src="video4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Video 4</p>
+    </div>
+    <div class="video-box">
+        <video controls>
+            <source src="video5.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Video 5</p>
+    </div>
+    <div class="video-box">
+        <video controls>
+            <source src="video6.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Video 6</p>
+    </div>
+    
+    <div class="large-box">
+        <video controls>
+            <source src="video7.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Featured Video</p>
+    </div>
+</div>
+
+</body>
+</html>
