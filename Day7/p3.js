@@ -10,3 +10,4 @@ function task(message,delay){
 task("First task completed", 1000)
     .then(() => task("Second task is completed",2000))
     .then(() => task("Third task is completed",3000))
+    
