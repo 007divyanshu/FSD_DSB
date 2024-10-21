@@ -18,7 +18,7 @@ fetchdata()
     // let sum1=data.forEach(element => {
     //     x=x+element.score;
     //     console.log(element.name + " " + element.score);
-    });
+    // });
     console.log(sum);
 
 }).catch((err)=>{
