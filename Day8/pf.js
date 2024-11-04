@@ -17,3 +17,5 @@ async function orderfood(name,time){
      
     
     }
+    restraunt();
+    
